@@ -1,5 +1,9 @@
 
-export const QUIZ_QUESTIONS = [
+import { QuizQuestion } from './types';
+
+// Reativando o arquivo para suporte total a TypeScript nos componentes .tsx
+// Este arquivo deve ser mantido em sincronia com o constants.js
+export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
     question: "O que mais te incomoda hoje? 🎭",
