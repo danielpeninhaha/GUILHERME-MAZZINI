@@ -1,11 +1,11 @@
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { AppStep } from './types';
 import Hero from './components/Hero';
 import Quiz from './components/Quiz';
 import ResultLoading from './components/ResultLoading';
 import Revelation from './components/Revelation';
-import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+import confetti from 'canvas-confetti';
 
 const App: React.FC = () => {
   const [currentStep, setCurrentStep] = useState<AppStep>(AppStep.HERO);
